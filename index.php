@@ -20,6 +20,7 @@
 			<li><a href="index.php?page=home">HOME</a></li>
 			<li><a href="index.php?page=news">NEWS</a></li>
 			<li><a href="index.php?page=standing">STANDING</a></li>
+            <li><a href="index.php?page=team">TEAM</a></li>
             <li><a href="index.php?page=contact">CONTACT</a></li>
 		</ul>
 	</div>
@@ -41,6 +42,9 @@
 			case 'standing':
 				include "halaman/standing.php";
 				break;
+			case 'team':
+				include "halaman/team.php";
+				break;
 			case 'contact':
 				include "halaman/contact.php";
 				break;			
@@ -59,4 +63,6 @@
 	<a href="login.php"> Click here to Login<a><br/>
  	<a href="register.php"> Click here to Register<a><br/>   
 </body>
+<footer>
+	<p>Copyright by Trinity Network 2019</p>
 </html>
