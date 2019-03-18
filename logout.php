@@ -1,0 +1,11 @@
+<?php
+session_start();
+session_destroy();
+$op=$_GET['op'];
+if($op=="outlet"){
+header("location:..halaman/home.php");	
+}
+else{
+header("halaman/home.php");	
+}
+?>
