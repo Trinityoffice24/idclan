@@ -1,7 +1,4 @@
 <div class="halaman">
-Design
-
- 
 
 
 
@@ -9,7 +6,7 @@ Design
 <html>
 <head>
 	<title>STANDING</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="file:///D|/idclan/halaman/style.css">
 </head>
 <body>
 	<center><h5>STANDING</h5></center>
